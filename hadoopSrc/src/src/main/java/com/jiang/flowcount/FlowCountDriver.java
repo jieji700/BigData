@@ -1,12 +1,7 @@
 package com.jiang.flowcount;
 
-import com.jiang.wordcount.WordcountDriver;
-import com.jiang.wordcount.WordcountMapper;
-import com.jiang.wordcount.WordcountReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
@@ -27,12 +22,15 @@ public class FlowCountDriver {
         job.setReducerClass(FlowCountReducer.class);
 
         //set mapper output datatype
-        job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(FlowBean.class);
+        job.setMapOutputKeyClass(FlowBeanSort.class);
+        job.setMapOutputValueClass(Text.class);
 
         //set final data k,v
         job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(FlowBean.class);
+        job.setOutputValueClass(FlowBeanSort.class);
+
+        job.setPartitionerClass(ProvincePartitioner.class);
+        job.setNumReduceTasks(5);
 
         //set input&output path
         FileInputFormat.setInputPaths(job, new Path(args[0]));

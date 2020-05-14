@@ -4,20 +4,14 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class FlowCountReducer extends Reducer<Text,FlowBean, Text,FlowBean> {
+public class FlowCountReducer extends Reducer<FlowBeanSort,Text, Text,FlowBeanSort> {
 
-    FlowBean v = new FlowBean();
+    FlowBeanSort v = new FlowBeanSort();
+
     @Override
-    protected void reduce(Text key, Iterable<FlowBean> values, Context context) throws IOException, InterruptedException {
-        long sum_upFlow =0;
-        long sum_downFlow=0;
-
-        for(FlowBean value : values){
-            sum_upFlow += value.getUpFlow();
-            sum_downFlow += value.getDownFlow();
+    protected void reduce(FlowBeanSort key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+        for(Text value:values){
+            context.write(value,key);
         }
-
-        v = new FlowBean(sum_upFlow,sum_downFlow);
-        context.write(key,v);
     }
 }
