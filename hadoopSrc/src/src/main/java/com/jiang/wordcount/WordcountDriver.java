@@ -1,5 +1,6 @@
 package com.jiang.wordcount;
 
+import com.jiang.index.IndexDriver;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
@@ -30,18 +31,7 @@ public class WordcountDriver {
         job.setReducerClass(WordcountReducer.class);
 
         //set mapper output datatype
-        job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(IntWritable.class);
-
-        //job.setCombinerClass(WordcountReducer.class);
-
-        //set final data k,v
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
-
-        //set input&output path
-        FileInputFormat.setInputPaths(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        IndexDriver.a(args, job);
 
 
         FileOutputFormat.setCompressOutput(job,true);
