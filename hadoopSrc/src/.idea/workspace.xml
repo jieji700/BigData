@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="hadoop.jiang.wordcount:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ab414db-006f-4dbf-a850-daf50064cbbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../hbase/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hbase/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hbase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hbase/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hadoop" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\hadoop\hadoop\WordCount\src\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bkYpJuiGOMy2DDbyVLBc9AtAoE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hbase" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiang.flowcount" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jiang.outputFormatCus" />
+      <recent name="com.jiang.inputformatCus" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WordcountDriver">
+    <configuration name="DistributedCacheDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.cache.DistributedCacheDriver" />
+      <module name="src" />
+      <option name="PROGRAM_PARAMETERS" value="F:\hadoop\hadoop\hadoopSrc\test\input\JOIN\order.txt F:\hadoop\hadoop\hadoopSrc\test\output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.outputFormatCus.FilterDriver" />
+      <module name="src" />
+      <option name="PROGRAM_PARAMETERS" value="F:\hadoop\hadoop\hadoopSrc\test\input\log.txt F:\hadoop\hadoop\hadoopSrc\test\output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.outputFormatCus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowCountDriver" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.flowcount.FlowCountDriver" />
+      <module name="src" />
+      <option name="PROGRAM_PARAMETERS" value="F:\hadoop\hadoop\hadoopSrc\test\input\phoneData.txt F:\hadoop\hadoop\hadoopSrc\test\output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.flowcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.order.OrderDriver" />
+      <module name="src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.reducerjoin.TableDriver" />
+      <module name="src" />
+      <option name="PROGRAM_PARAMETERS" value="F:\hadoop\hadoop\hadoopSrc\test\input\JOIN F:\hadoop\hadoop\hadoopSrc\test\output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.reducerjoin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.compress.TestCompress" />
+      <module name="src" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.compress.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordcountDriver" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_181\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jiang.wordcount.WordcountDriver" />
+      <module name="src" />
+      <option name="PROGRAM_PARAMETERS" value="F:\hadoop\hadoop\hadoopSrc\test\input\hello.txt F:\hadoop\hadoop\hadoopSrc\test\output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.wordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FlowCountDriver" />
+      <item itemvalue="Application.WordcountDriver" />
+      <item itemvalue="Application.OrderDriver" />
+      <item itemvalue="Application.FilterDriver" />
+      <item itemvalue="Application.TableDriver" />
+      <item itemvalue="Application.DistributedCacheDriver" />
+      <item itemvalue="Application.TestCompress" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestCompress" />
+        <item itemvalue="Application.DistributedCacheDriver" />
+        <item itemvalue="Application.TableDriver" />
+        <item itemvalue="Application.FilterDriver" />
+        <item itemvalue="Application.OrderDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ab414db-006f-4dbf-a850-daf50064cbbe" name="Default Changelist" comment="" />
+      <created>1589177739337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589177739337</updated>
+      <workItem from="1589177743560" duration="6370000" />
+      <workItem from="1589186701697" duration="3303000" />
+      <workItem from="1589191956967" duration="83000" />
+      <workItem from="1589192276580" duration="760000" />
+      <workItem from="1589246594127" duration="17651000" />
+      <workItem from="1589278880422" duration="296000" />
+      <workItem from="1589332513452" duration="24660000" />
+      <workItem from="1589419829204" duration="8388000" />
+      <workItem from="1589505935233" duration="5847000" />
+      <workItem from="1589766111319" duration="6272000" />
+      <workItem from="1589851835658" duration="5745000" />
+      <workItem from="1590632815849" duration="383000" />
+      <workItem from="1590633681984" duration="924000" />
+      <workItem from="1590652468534" duration="2718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="212" y="10" key="#Notifications" timestamp="1589356762973">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="212" y="10" key="#Notifications/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589356762973" />
+    <state x="312" y="93" key="#Project_Structure" timestamp="1589183933928">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="312" y="93" key="#Project_Structure/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589183933928" />
+    <state x="438" y="93" key="#WordcountDriver" timestamp="1589192038507">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="438" y="93" key="#WordcountDriver/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589192038507" />
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589434914386">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589434914386" />
+    <state x="500" y="139" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1589184868713">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="500" y="139" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589184868713" />
+    <state x="525" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1589359632829">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="525" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589359632829" />
+    <state x="477" y="227" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589191437947">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="477" y="227" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589191437947" />
+    <state x="424" y="118" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1589254684252">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="424" y="118" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589254684252" />
+    <state x="486" y="267" width="467" height="347" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589358397688">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="486" y="267" width="467" height="347" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589358397688" />
+    <state x="436" y="153" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1589190413082">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="436" y="153" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589190413082" />
+    <state x="456" y="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589268753464">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="456" y="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589268753464" />
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1589427964245">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589427964245" />
+    <state width="426" height="466" key="DebuggerActiveHint" timestamp="1589351022307">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="426" height="466" key="DebuggerActiveHint/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589351022307" />
+    <state x="500" y="176" key="FileChooserDialogImpl" timestamp="1590656597161">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="500" y="176" key="FileChooserDialogImpl/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1590656597161" />
+    <state width="1385" height="147" key="GridCell.Tab.0.bottom" timestamp="1589447275167">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1385" height="147" key="GridCell.Tab.0.bottom/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589447275167" />
+    <state width="1385" height="147" key="GridCell.Tab.0.center" timestamp="1589447275167">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1385" height="147" key="GridCell.Tab.0.center/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589447275167" />
+    <state width="1385" height="147" key="GridCell.Tab.0.left" timestamp="1589447275167">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1385" height="147" key="GridCell.Tab.0.left/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589447275167" />
+    <state width="1385" height="147" key="GridCell.Tab.0.right" timestamp="1589447275167">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1385" height="147" key="GridCell.Tab.0.right/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589447275167" />
+    <state width="1387" height="118" key="GridCell.Tab.1.bottom" timestamp="1589365269898">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1387" height="118" key="GridCell.Tab.1.bottom/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589365269898" />
+    <state width="1387" height="118" key="GridCell.Tab.1.center" timestamp="1589365269898">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1387" height="118" key="GridCell.Tab.1.center/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589365269898" />
+    <state width="1387" height="118" key="GridCell.Tab.1.left" timestamp="1589365269898">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1387" height="118" key="GridCell.Tab.1.left/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589365269898" />
+    <state width="1387" height="118" key="GridCell.Tab.1.right" timestamp="1589365269898">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="1387" height="118" key="GridCell.Tab.1.right/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589365269898" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1589434832279">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589434832279" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1589276251820">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589276251820" />
+    <state x="364" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589348721018">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="364" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589348721018" />
+    <state x="529" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589360094892">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="529" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589360094892" />
+    <state x="387" y="149" key="extract.method.dialog" timestamp="1589445025130">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="387" y="149" key="extract.method.dialog/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589445025130" />
+    <state x="354" y="0" width="732" height="870" key="find.popup" timestamp="1590632859800">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="354" y="0" width="732" height="870" key="find.popup/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1590632859800" />
+    <state x="0" y="62" key="new project wizard" timestamp="1590633194628">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="0" y="62" key="new project wizard/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1590633194628" />
+    <state x="426" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1589350204423">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="426" y="0" key="refactoring.ChangeSignatureDialog/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589350204423" />
+    <state x="292" y="194" key="run.anything.popup" timestamp="1589350230539">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="292" y="194" key="run.anything.popup/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589350230539" />
+    <state x="383" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1589342094648">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="383" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1440.870/1440.0.1440.870@0.0.1440.870" timestamp="1589342094648" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jiang/flowcount/FlowCountMapper.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
