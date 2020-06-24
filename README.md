@@ -4,3 +4,4 @@
 # Hbase
 # Hive
 # Kafka
+# Zookeeper
